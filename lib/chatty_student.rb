@@ -1,4 +1,4 @@
-class ChattyStudent
+class ChattyStudent < Student
  
   def hello
     puts "Hey there! I'm so excited to learn stuff."
@@ -7,9 +7,8 @@ class ChattyStudent
   end
   
   def raise_hand
-    super
-    10.times{puts "Pick me!"} 
-    
+  10.times do super
+  puts "Pick me!"
   end
   
   
